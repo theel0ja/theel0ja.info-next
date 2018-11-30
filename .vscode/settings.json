@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "files.exclude": {
+        ".sass-cache": true,
+        "_site": true,
+        ".well-known": true, // no need to see atm
+        "vendor": true
+    }
+}
