@@ -1,11 +1,10 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+# I should create name for my blog, like "Stack Problems"
+title: theel0ja's Site
+description: Insert nice description
+author: Elias Ojala
+github: https://github.com/theel0ja
+# about: Insert description about yourself
+avatar_url: https://storage.theel0ja.info/theel0ja-assets/profile-pic.jpg?ref=theel0ja.info
 
 enableTags: true
 tagarray: []
@@ -16,30 +15,23 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/agusmakmun"
+  - icon: fa-twitter
+    link: "https://twitter.com/theel0ja"
+  - icon: fa-github
+    link: "https://github.com/theel0ja"
 
 share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+  twitter_username: theel0ja
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+  - text: About Me
+    url: /about/
+  - text: My Projects
+    url: /projects/
+  - text: XML Feed
+    url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://theel0ja.info"
 baseurl: ""
 paginate: 20
 per_page: 20
