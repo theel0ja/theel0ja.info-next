@@ -1,0 +1,35 @@
+---
+layout: page
+---
+
+<div>
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+
+  <!-- Google helpful 404 page (https://gist.github.com/theel0ja/2d4330904c1ed7137a7d79c9bf0224ee, https://web.archive.org/web/20120922025403/http://support.google.com/webmasters/bin/answer.py?hl=en&answer=136085) -->
+  <script>
+    var GOOG_FIXURL_LANG = '{{ page.lang | default: site.lang | default: "en" }}';
+    var GOOG_FIXURL_SITE = location.host;
+  </script>
+  <script src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+  <link rel="stylesheet" href="https://cdn.theel0ja.info/libs/google-linkhelp-improver/dist/style.css">
+  <script src="https://cdn.theel0ja.info/libs/google-linkhelp-improver/dist/script.js" defer async></script>
+
+  <div id="legacyLink"></div>
+
+  <script src="https://cdn.theel0ja.info/libs/snippets/getparameterbyname.js"></script>
+  <script>
+    // If query parameter "nolegacylink" isn't set, show "Try to find it from legacy site"-button
+    var noLegacyLink = getParameterByName('nolegacylink');
+
+    if(noLegacyLink == null) {
+      var legacyLinkUrl = "https://legacy.theel0ja.info" + window.location.pathname;
+
+      document.getElementById("legacyLink").innerHTML = "<a href=\"" + legacyLinkUrl + "\">Try to find it from legacy site</a>";
+    } /* else {
+      console.log("Not showing legacy link.");
+    } */
+  </script>
+</div>
