@@ -15,7 +15,6 @@ h3.project-headlines {
 
 span.tags {
   font-size: 10px;
-  border-bottom: 1px #888 dotted;
   margin: 0 5px;
 }
 span.tags:first-child {
@@ -67,7 +66,8 @@ span.tag-cloud {
   display: inline;
 }
 .tag-cloud.active {
-  background: #ccc;
+  background: #fff;
+  color: #333;
 }
 .project-item.not-show {
   display: none;
